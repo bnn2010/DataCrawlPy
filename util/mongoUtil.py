@@ -5,6 +5,7 @@ import datetime
 
 
 client = MongoClient('mongodb://localhost:27017/tsinghua')
+
 db = client['tsinghua']
 
 def insert(collName,doc):
