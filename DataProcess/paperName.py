@@ -1,5 +1,7 @@
 from util import mongoUtil
 
+
+#获取文件名
 # import pymongo
 def processPaperName():
     coll = mongoUtil.getCollection('CrawledData_3')
